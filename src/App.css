@@ -1,0 +1,95 @@
+body, html {
+  position: relative;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.sidebar-container-open {
+  width: 250px !important;
+}
+
+.sidebar-container {
+  width: 0;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: width 0.2s;
+}
+
+.sidebar-container > * {
+  transition: width 0.01s;
+}
+
+.searchBar {
+  border-bottom: 1px #ccc solid;
+}
+
+.itemList {
+  padding: 0 8px;
+}
+
+.searchBarInput {
+  width: 100%;
+  border: none;
+  color: #666;
+  font-size: 11px;
+  height: 27px;
+  padding-left: 8px;
+}
+
+.toggle-btn {
+  float: right;
+}
+
+.topLine {
+  background-color: #f7f8f8;
+  color: #6b9bcd;
+  font-size: 16px;
+  height: 54px;
+  line-height: 54px;
+}
+
+.sideBarItem {
+  border-bottom: 1px #ccc solid;
+  margin: 5px 0;
+  height: 43px;
+  width: 100%;
+}
+
+.itemsListContainer {
+  max-height: 87vh;
+  height: 87vh;
+}
+
+.itemList {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.sideBarItemLocation {
+  font-size: 10px;
+  color: #ccc;
+}
+
+.sideBarItemDate {
+}
+
+.sideBarItemDate, .sideBarItemLastUpdate {
+  font-size: 10px;
+  text-align: center;
+}
+
+.sideBarItemTitle {
+  font-size: 11px;
+  white-space: nowrap;
+}
