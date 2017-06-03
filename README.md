@@ -1,6 +1,11 @@
 ## Overview
 
-This repository tracks commits for the react sidebar exercise
+This repository tracks commits for the react sidebar exercise.
+Just run this commands to start the project:
+
+npm i
+
+npm start
 
 ## Libraries
 
